@@ -35,7 +35,7 @@ public class TestRunner1 {
 		// Runner.path("classpath:features").tags("@smoke").parallel(3);
 		// assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
 		// junit4*************************
-		Results results = Runner.path("classpath:features").tags("@regression").parallel(2);
+		Results results = Runner.path("classpath:features").tags("@tag30").parallel(2);
 		assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
 	}
 
